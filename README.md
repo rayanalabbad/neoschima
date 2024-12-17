@@ -44,3 +44,16 @@ picture of the editor with text example
 - `ctrl+n` for a new file
 - `ctrl+s` for saving a file
 - `ctrl+o` for opening a file
+
+## how to build
+
+### prerequisites
+
+- node js
+- npm
+- rust
+- tauri
+
+clone the directory and `cd` into it
+then run `npm install`
+and finally run `npm run tauri build`
