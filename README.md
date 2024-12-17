@@ -54,6 +54,36 @@ picture of the editor with text example
 - rust
 - tauri
 
-clone the directory and `cd` into it
-then run `npm install`
-and finally run `npm run tauri build`
+### steps
+
+- clone the repository
+  
+    ```bash
+    git clone https://github.com/rayanalabbad/neoschima.git
+    ```
+
+- `cd` into the cloned repository
+  
+    ```bash
+    cd neoschima
+    ```
+
+- run `npm install` to install dependencies
+  
+    ```bash
+    npm install
+    ```
+
+- run `npm run tauri build` to build the application
+
+    ```bash
+    npm run tauri build
+    ```
+
+- and finally `cd` into `neoschima/src-tauri/target/release/bundle/` and find the application
+
+    ```bash
+    cd src-tauri/target/release/bundle
+    ```
+
+    and find the application for your operating system
